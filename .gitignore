@@ -1,0 +1,58 @@
+# dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# build outputs
+dist/
+dist-client/
+dist-server/
+.vite/
+.vite-cache/
+
+# env files (secrets)
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# runtime / temp
+tmp/
+temp/
+*.tmp
+*.swp
+.DS_Store
+
+# editor / ide
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+.idea/
+
+
+# coverage
+coverage/
+
+# typescript cache
+*.tsbuildinfo
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# optional: lockfile is usually committed (keep it)
+# pnpm-lock.yaml (DO NOT IGNORE)
+
+node_modules/
+dist/
+.vite/
+*.log
+.DS_Store
+.env*
